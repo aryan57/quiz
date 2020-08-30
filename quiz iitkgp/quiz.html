@@ -1,0 +1,192 @@
+<!--Name - Aryan Agarwal
+Roll No - 19CS30005-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script src="quiz.js"></script>
+<link rel="stylesheet" type="text/css" href="quiz.css">
+
+<title>Quiz</title>
+</head>
+<body>
+        
+<div id="Qparent">
+    <div id="Qchild">
+        Welcome to Quiz!
+    </div>
+</div>
+
+<div class="space">
+
+</div>
+
+<div id="Qtextparent">
+    <div id="Qtextchild">
+        Please read the instructions
+    </div>
+</div>
+
+<div id="father">
+
+    <div id="child1">
+        <div class="childtop">
+            <div class="childleft">
+                <div class="Qoptionparent">
+                    <a href="javascript:selected_option('A');" >
+                        <div class="Qoptionchild"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="childright">
+            <div class="Qoptionparent">
+                    <a href="javascript:selected_option('B');" >
+                        <div class="Qoptionchild"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="childbottom">
+            <div class="childleft">
+            <div class="Qoptionparent">
+                    <a href="javascript:selected_option('C');" >
+                        <div class="Qoptionchild"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="childright">
+                <div class="Qoptionparent">
+                    <a href="javascript:selected_option('D');" >
+                        <div class="Qoptionchild"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="child2">
+
+    </div>
+
+    <div id="child3">
+        <table width="100%">
+            <tr>
+                <td>Question No.</td>
+                <td>Selected Option</td>
+                <td>Correct Option</td>
+                <td>Marks Awarded</td>
+                <td>Help Taken</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="selected_option"></td>
+                <td>A</td>
+                <td class="marks_awarded"></td>
+                <td class="help_taken"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="selected_option"></td>
+                <td>D</td>
+                <td class="marks_awarded"></td>
+                <td class="help_taken"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="selected_option"></td>
+                <td>B</td>
+                <td class="marks_awarded"></td>
+                <td class="help_taken"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="selected_option"></td>
+                <td>C</td>
+                <td class="marks_awarded"></td>
+                <td class="help_taken"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="selected_option"></td>
+                <td>A</td>
+                <td class="marks_awarded"></td>
+                <td class="help_taken"></td>
+            </tr>
+            <tr>
+                <td colspan="5" id="total_marks"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="child4">
+        There are 5 single correct MCQ's in this Quiz.
+        <br>
+        You will be provided with two Life Lines "50/50" & "Hint" , but you can only use one at a time.
+        <br>
+        +4 marks for correct response
+        <br>
+        +2 marks for correct response after taking help
+        <br>
+        0 mark for wrong response
+        <br>
+        All Questions are compulsory
+        <br>
+        <a href="javascript:Q(questionNo,'');">Click Here to Start</a>
+    </div>
+
+</div>
+
+<div class="selected_option_child" id="selected_option_parent_a">
+    Selected Option : A <a href="javascript:Q(questionNo,'A');" >(Click to continue)</a>
+</div>
+
+
+<div class="selected_option_child" id="selected_option_parent_b">
+    Selected Option : B <a href="javascript:Q(questionNo,'B');" >(Click to continue)</a>
+</div>
+
+
+<div class="selected_option_child"  id="selected_option_parent_c">
+    Selected Option : C <a href="javascript:Q(questionNo,'C');" >(Click to continue)</a>
+</div>
+
+
+<div class="selected_option_child"id="selected_option_parent_d">
+    Selected Option : D <a href="javascript:Q(questionNo,'D');" >(Click to continue)</a>
+</div>
+<div class="selected_option_child"id="selected_option_parent_none">
+    ...
+</div>
+
+<div class="father2">
+    <div class="childleft">
+    
+        <div id="helpparent5050">  
+            <a href="javascript:help5050(questionNo);">
+                <div class="helpchild">
+                    50/50
+                </div>
+            </a>
+        </div>
+        <div id="back_arrow">  
+            <a href="javascript:back();">
+                <div class="helpchild">
+                    &lt---
+                </div>
+            </a>
+        </div>
+    </div> 
+    <div class="childright">
+        <div id="helpparenthint">
+            <a href="javascript:helphint(questionNo);" >
+                <div class="helpchild">
+                    Hint
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

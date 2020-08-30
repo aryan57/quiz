@@ -1,0 +1,305 @@
+/*Name - Aryan Agarwal
+Roll No - 19CS30005*/
+
+.space
+{
+    height: 25px;
+}
+#Qparent
+{
+    border-color: rgb(74, 84, 90);
+    border-width:7px;
+    border-radius: 50px;
+    border-style: solid;
+
+    background-color: rgb(229, 201, 241);
+
+    width: 98%; 
+}
+
+#Qchild
+{
+    text-shadow: 3px 2px rgb(165, 201, 165);
+    font-size:60px;
+    line-height: 130px;
+    vertical-align: middle;
+    font-weight: bold;
+    color:rgb(108, 23, 148);
+    width: 100%; 
+    text-align: center;
+}
+
+#Qtextparent
+{
+    border-color: rgb(67, 138, 179);
+    border-width:5px;
+    border-style: solid;
+    border-radius: 30px;
+
+    background-color: rgb(178, 181, 241);
+    
+    width: 98%; 
+}
+
+#Qtextchild
+{
+    vertical-align: middle;
+    font-size:40px;
+    color: rgb(108, 23, 148);
+    width: 100%; 
+    line-height: 80px; 
+    text-align: center;
+}
+.Qoptionparent
+{
+    border-color: rgb(67, 138, 179);
+    border-width:4px;
+    border-radius: 10px;
+    border-style: solid;
+
+    background-color:rgb(178, 181, 241);
+    height: 100%; 
+}
+
+.Qoptionparent:hover
+{
+    background-color:rgba(178, 181, 241, 0.575);
+}
+
+.Qoptionchild
+{
+    font-size:30px;
+    color: rgb(108, 23, 148);
+    line-height: 60px;
+    vertical-align:middle;
+    text-align: center;
+}
+
+#father
+{
+    width: 98%;
+    height: 150px;
+}
+
+#child1
+{
+    height: 150px;
+    width:98%;
+    position:absolute;
+    display: none;
+}
+#child2
+{
+    line-height: 150px;
+    width:98%;
+    position:absolute;
+    display: none;
+
+    border-color: rgb(67, 138, 179);
+    border-width:4px;
+    border-radius: 10px;
+    border-style: solid;
+
+    background-color:rgb(178, 181, 241);
+    
+    font-size:30px;
+    color: rgb(108, 23, 148);
+    text-align: center;
+}
+
+#child3
+{
+    width:98%;
+    position:absolute;
+    display: none;
+
+    border-color: rgb(67, 138, 179);
+    border-width:4px;
+    border-radius: 10px;
+    border-style: solid;
+
+    background-color:rgb(178, 181, 241);
+    
+    font-size:30px;
+    color: rgb(108, 23, 148);
+    text-align: center;
+}
+
+#child4
+{
+    width:98%;
+    position:absolute;
+   line-height: 40px;
+    
+    border-color: rgb(67, 138, 179);
+    border-width:4px;
+    border-radius: 10px;
+    border-style: solid;
+
+    background-color:rgb(178, 181, 241);
+    
+    font-size:30px;
+    color: rgb(108, 23, 148);
+    text-align: center;
+}
+
+.childleft
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.childright
+{
+    float:right;
+    width: 50%;
+    height: 100%;
+}
+
+.childtop
+{
+   float:top;
+   height: 50%; 
+}
+
+.childbottom
+{
+    float: bottom;
+    height: 50%;  
+}
+
+
+.father2
+{
+    line-height: 75px;
+    width: 98%;
+    /* position: absolute; */
+}
+
+#helpparent5050
+{
+    border-color: rgb(69, 97, 105);
+    border-width:4px;
+    border-radius: 20px;
+    border-style: solid;
+
+    /* position: absolute; */
+    background-color:rgb(178, 226, 241);
+    width: 100%;
+    display: none;
+}
+
+#back_arrow
+{
+    border-color: rgb(69, 97, 105);
+    border-width:4px;
+    border-radius: 20px;
+    border-style: solid;
+    
+    background-color:rgb(178, 226, 241);
+  
+    /* position: absolute; */
+    width: 100%;
+    display: none;
+}
+
+#helpparenthint
+{
+    border-color: rgb(69, 97, 105);
+    border-width:4px;
+    border-radius: 20px;
+    border-style: solid;
+    
+    background-color:rgb(178, 226, 241);
+    
+    /* float :right; */
+    /* width: 50%; */
+    display: none;
+}
+
+.helpchild
+{
+    font-size:30px;
+    color: rgb(108, 23, 148);
+    width: 100%;
+    /* line-height: 50px;  */
+    text-align: center;
+    
+}
+
+#helpparenthint:hover
+{
+    background-color: rgba(178, 226, 241, 0.555)
+}
+
+#helpparent5050:hover
+{
+    background-color: rgba(178, 226, 241, 0.555)
+}
+
+#selected_option_parent_a
+{
+    border-color: rgb(69, 97, 105);
+    border-width:4px;
+    border-radius: 20px;
+    border-style: solid;
+    line-height: 75px;
+    /* position: absolute; */
+    /* float: bottom; */
+    background-color:rgb(229, 201, 241);
+    width:98%;
+    display: none;
+}
+#selected_option_parent_b
+{
+    border-color: rgb(69, 97, 105);
+    border-width:4px;
+    border-radius: 20px;
+    border-style: solid;
+    line-height: 75px;
+    /* position: absolute; */
+    /* float: bottom; */
+    background-color:rgb(229, 201, 241);
+    width:98%;
+    display: none;
+}
+#selected_option_parent_c
+{
+    border-color: rgb(69, 97, 105);
+    border-width:4px;
+    border-radius: 20px;
+    border-style: solid;
+    line-height: 75px;
+    /* position: absolute; */
+    /* float: bottom; */
+    background-color:rgb(229, 201, 241);
+    width:98%;
+    display: none;
+}
+#selected_option_parent_d
+{
+    border-color: rgb(69, 97, 105);
+    border-width:4px;
+    border-radius: 20px;
+    border-style: solid;
+    line-height: 75px;
+    /* position: absolute; */
+    /* float: bottom; */
+    background-color:rgb(229, 201, 241);
+    width:98%;
+    display: none;
+}
+#selected_option_parent_none
+{
+    line-height: 75px;
+    display: block;
+}
+.selected_option_child
+{
+    font-size:30px;
+    color: rgb(108, 23, 148);
+    width: 100%;
+    text-align: center;
+    
+}
